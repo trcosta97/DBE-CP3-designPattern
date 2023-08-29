@@ -1,0 +1,21 @@
+ENUNCIADO
+
+Uma biblioteca universitária deseja modernizar seu sistema de gerenciamento. O novo sistema deve permitir
+o registro de livros, o empréstimo de livros aos alunos e a devolução dos mesmos.
+
+Requisitos:
+
+-Registro de Livros: A biblioteca deve ser capaz de adicionar novos livros ao sistema, cada um com um título,
+autor, ISBN e quantidade disponível.
+-Empréstimo de Livros: Os alunos podem pegar livros emprestados. Cada
+livro só pode ser emprestado a um aluno por vez. 
+-Devolução de Livros: Após o empréstimo, os alunos devem devolver os livros.
+
+-Crie um design pattern comportamental que permita que as tarefas notifiquem automaticamente os observadores
+quando seu status mudar.
+-Implemente outro design pattern comportamental para permitir que diferentes estratégias de priorização de
+tarefas sejam escolhidas em tempo de execução.
+-Utilize um design pattern criacional para garantir que apenas uma única instância do sistema de gerenciamento
+de tarefas seja criada.
+-Utilize um design pattern estrutural para permitir que as tarefas sejam compostas em uma estrutura de árvore,
+onde uma tarefa pode conter outras tarefas.
