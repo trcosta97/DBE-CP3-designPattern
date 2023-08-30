@@ -11,8 +11,8 @@ public class LoanFacade {
     private Student student;
 
     public LoanFacade(){
-        this.book = new Book();
-        this.student = new Student();
+        this.book = new Book("Cabeça Fria, Coração Quente", 4);
+        this.student = new Student("Deyverson", true, 0);
     }
 
     public void LoanBook(){

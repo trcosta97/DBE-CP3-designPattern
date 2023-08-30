@@ -3,18 +3,22 @@ package domain;
 public class Book {
     private String title;
     private String author;
-    private int bookAvailability;
+    private int availability;
+    private String isbn;
+
+    public Book(String title, int availability) {
+        this.title = title;
+        this.availability = availability;
+    }
 
     public String getTitle() {
         return title;
     }
 
-    public int getBookAvailability() {
-        return bookAvailability;
+    public int getAvailability() {
+        return availability;
     }
 
-    private String isbn;
-    private int availability;
 
     public void removeBook(){
         this.availability =- 1;
