@@ -1,4 +1,4 @@
-package domain;
+package com.checkpoint.app.domain;
 
 import java.time.LocalDate;
 

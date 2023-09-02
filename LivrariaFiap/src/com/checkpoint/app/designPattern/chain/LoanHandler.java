@@ -1,6 +1,6 @@
-package designPattern.chain;
+package com.checkpoint.app.designPattern.chain;
 
-import domain.Loan;
+import com.checkpoint.app.domain.Loan;
 
 public abstract class LoanHandler {
 

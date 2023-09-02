@@ -1,4 +1,4 @@
-package domain;
+package com.checkpoint.app.domain;
 
 public class Student {
     private String name;

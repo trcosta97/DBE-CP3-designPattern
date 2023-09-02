@@ -1,10 +1,7 @@
-package designPattern.facade;
+package com.checkpoint.app.designPattern.facade;
 
-import domain.Book;
-import domain.Student;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+import com.checkpoint.app.domain.Book;
+import com.checkpoint.app.domain.Student;
 
 public class LoanFacade {
     private Book book;

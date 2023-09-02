@@ -1,8 +1,8 @@
-package designPattern.chain;
+package com.checkpoint.app.designPattern.chain;
 
-import domain.Book;
-import domain.Loan;
-import domain.Student;
+import com.checkpoint.app.domain.Book;
+import com.checkpoint.app.domain.Loan;
+import com.checkpoint.app.domain.Student;
 
 public class MainChain {
 
